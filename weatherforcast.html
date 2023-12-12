@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="WeatherApp.css"/>
+    <title>WeatherApp.com</title>
+</head>
+<body>
+    <div class="main-content">
+    <div class="heading">WEATHER APP</div>
+    <div class="searchcityname" >
+        <input type="text" placeholder="Searchcity" id="city">
+    </div>
+    <button id="searchbutton" onclick="searchcity()">Search</button>
+    <div class="main-content-2">
+        <div class="cityname2" id="cityname-2">_ _ _ _</div>
+        <div class="weather" id="weather">_ _ _ _</div>
+        <div class="temprature" id="temp"><span>Temp:<span id="temp-here"> _ _</span><span>°</span></div>
+        <div class="temprature" id="country"><span>Country: <span id="country-here">_ _</span></div>
+        <div class="temprature" id="local-time"><span>Local Time:<span id="local-time-here">_ _</span></div>
+    </div>
+    </div>
+    <script src="WeatherApp.js"></script>
+</body>
+</html>
