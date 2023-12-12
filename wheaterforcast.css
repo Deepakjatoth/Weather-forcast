@@ -1,0 +1,124 @@
+.main-content{
+    margin: auto;
+    margin-top: 5%;
+    height: 80vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 80lvb;
+    background-color: rgb(215, 250, 239);
+    
+}
+
+.heading{
+    color: rgb(255, 132, 0);
+    padding-top:3%;
+    margin-bottom:2%;
+    font-size: 30px;
+}
+
+#city{
+    height: 30px;
+    width: 60vb;
+    border: solid black ;
+    border-radius: 5px;
+    text-indent: 9px;
+    margin-bottom: 20px;
+}
+
+#searchbutton{
+    height: 40px;
+    width: 100px;
+    background-color:rgb(1, 132, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: bottom 10px ;
+}
+.main-content-2{
+    margin-top: 10px;
+    border: solid ;
+    width: 60vb;
+    margin-left: 13%;
+    height: 59%;
+}
+.cityname2{
+    height: 50px;
+    font-size: 30px; 
+    border-bottom: solid 2px;
+    background-color: rgb(140, 241, 209);
+
+}
+.weather{
+    font-size: 30PX;
+    margin: 20px;
+}
+
+.temprature{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:700px) {
+    .heading{
+        color: pink ;
+    }
+    .main-content{
+        margin:auto;
+        margin-top: 5%;
+        height: 80vh;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        width: 55vb;
+        background-color: rgb(215, 250, 239);
+    }
+    .heading{
+        color: rgb(255, 132, 0);
+        padding-top:3%;
+        margin-bottom:2%;
+        font-size: 20px;
+    }
+    
+    #city{
+        height: 30px;
+        width: 40vb;
+        border: solid black ;
+        border-radius: 5px;
+        text-indent: 9px;
+        margin-bottom: 20px;
+    }
+    
+    #searchbutton{
+        height: 40px;
+        width: 100px;
+        background-color:rgb(1, 132, 255);
+        border-radius: 5px;
+        font-size: 20px;
+        margin: bottom 10px ;
+    }
+    .main-content-2{
+        margin-top: 10px;
+        border: solid ;
+        width: 40vb;
+        margin-left: 13%;
+        height: 59%;
+    }
+    .cityname2{
+        height: 50px;
+        font-size: 20px; 
+        border-bottom: solid 2px;
+        background-color: rgb(140, 241, 209);
+    
+    }
+    .weather{
+        font-size: 20PX;
+        margin: 20px;
+    }
+    
+    .temprature{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+
+}
